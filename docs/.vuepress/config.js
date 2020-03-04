@@ -1,5 +1,10 @@
 module.exports = {
 	title: 'test blog',
+	plugins: {
+		'@vuepress/google-analytics': {
+			ga: 'UA-159680567-1'
+		}
+	},
 	themeConfig: {
 		sidebar: [
 			'/',
